@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Curriculum Vitae</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav>
+          <div><a class="text-decor" onclick="scrollingHome();">Home</a></div>
+          <div><a class="text-decor" onclick="scrollingAbout();">About</a></div>
+          <div><a class="text-decor" onclick="scrollingSkill();">Skill</a></div>
+          <div><a class="text-decor" onclick="scrollingContact();">Contact</a></div>
+        </nav>
+        <div class="cursor-logo">
+          <img src="https://i.ibb.co/F3KSv1C/mouse-cursor-pointer-3d-style-1017-32292-removebg-preview.png" alt="cursor" usemap="#pointermap">
+          <map name="pointermap">
+            <area id="cursor1" shape="circle" coords="30,30,20" alt="pointer1">
+            <area id="cursor2" shape="circle" coords="80,30,20" alt="pointer1">
+          </map>
+        </div>
+      </header>
+      <div class="welcome-page">
+        <div>
+          <img src="https://i.ibb.co/YbHh8Kj/397820.jpg" alt="profile-picture" class="rounded profile">
+          <h3 class="welcome">Welcome To</h3>
+          <h3 class="welcome">My Website</h3>
+        </div>
+      </div>
+      <section class="info">
+        <div class="template">
+          <div class="about">
+            <p class="about-page hover-here" data-text="Frederick&nbsp;Wijayadi&nbsp;Susilo">Name</p>
+            <p class="about-page hover-here" data-text="Male">Gender</p>
+            <p class="about-page hover-here" data-text="Catholic">Religion</p>
+            <p class="about-page hover-here" data-text="Informatics">Major</p>
+            <p class="about-page hover-here" data-text="Institut&nbsp;Teknologi&nbsp;Sepuluh&nbsp;Nopember">University</p>
+            <p class="about-page hover-here" data-text="Surakarta,&nbsp;Jawa&nbsp;Tengah">Domicile</p>
+          </div>
+        </div>
+        <div class="template">
+          <div class="skill">
+            <p class="skill-page">Skills</p>
+            <div class="skill-display">
+              <img class="java-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Java_programming_language_logo.svg/120px-Java_programming_language_logo.svg.png" alt="java">
+              <img class="cpp-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/C_Programming_Language.svg/330px-C_Programming_Language.svg.png" alt="cpp">
+            </div>
+            <div class="skill-display">
+              <img class="html-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/180px-HTML5_logo_and_wordmark.svg.png" alt="html">
+              <img class="css-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/180px-CSS3_logo_and_wordmark.svg.png" alt="css">
+            </div>
+          </div>
+        </div>
+        <div class="template">
+          <div class="contact">
+            <p class="contact-page">Contact&nbsp;Me</p>
+            <form action="#0" method="POST">
+              <fieldset>
+                <legend>Contact Form</legend>
+                <span>
+                  <input type="text" id="name" class="model" name="name" placeholder="Your Name" required>
+                  <input type="email" id="email" class="model" name="email" placeholder="Your Email" required>
+                </span>
+                <input type="text" id="subject" class="model" name="subject" placeholder="Subject" required>
+                <div>
+                  <input type="text" id="message" class="model" name="message" placeholder="Your Message" required>
+                </div>
+                <button type="submit">Submit&nbsp;Here</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="description">
+          <span class="icon">
+            <a href="https://github.com/BlazeSyn" target="_blank"><i class='bx bxl-github' ></i></a>
+          </span>
+          <span class="icon">
+            <span class="hover-me" data-text="frederick.wijayadisusilo@gmail.com">
+              <i class='bx bx-envelope' ></i>
+            </span>
+          </span>
+          <span class="icon">
+            <a href="https://www.instagram.com/fred.erickw/" target="_blank"><i class='bx bxl-instagram'></i></a>
+          </span>
+          <span class="icon">
+            <a href="https://www.linkedin.com/in/frederick-wijayadi-b1b97a21a/" target="_blank"><i class='bx bxl-linkedin-square'></i></a>
+          </span>
+          <span class="icon">
+            <a href="https://www.facebook.com/frederick.wijayadisusilo" target="_blank"><i class='bx bxl-facebook-square' ></i></a>
+          </span>
+        </div>
+        <div class="copyright">
+          <h4>Copyright © Frederick Wijayadi Susilo 2021</h4>
+        </div>
+      </footer>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
